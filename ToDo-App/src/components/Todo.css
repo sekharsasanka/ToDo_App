@@ -1,0 +1,104 @@
+.main-div{
+  min-height:100vh;
+  background: linear-gradient(to top right, #0066eb 0%, #ff8ab3 100%);
+  
+  display:flex;
+  justify-content: center;
+
+}
+
+.child-div {
+  text-align:center; 
+  margin-top: 6rem;
+ 
+}
+
+.child-div .image{
+
+  padding: 1.5rem;
+  height:10rem;
+}
+
+.input-icons{
+    /* border: 0.5px solid black; */
+    margin: 2rem 0rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #ffffff;
+}
+
+div.input-icons:focus-within{
+  border: 2px solid black;
+}
+
+
+.input-field{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 30rem;
+    font-size: 1.5rem;
+     font-weight: bold;
+}
+
+.fa-plus{
+   font-size: 1.8rem; 
+  
+  cursor:pointer;
+}
+
+.fa-plus:hover{
+  color:#A0EB7E;
+}
+
+.btn-danger{
+  margin-top: 4rem;
+ background-color: black;
+  color: white;
+  padding:1.5rem 1rem;
+  border-radius: 1.5rem 0;
+  border:none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-danger:hover{
+  background-color:#ff3333
+}
+
+input::placeholder{
+  color:#393939
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    background-color: #989898;
+    padding: 1.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    color: black;
+}
+
+.task > p{
+    width: 100%;
+}
+
+.fa-trash,.fa-edit{
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 0.2rem ;
+   
+}
+
+.fa-trash:hover{
+    color:red;
+}
+
+.fa-edit {
+  margin-right: 1rem;
+  
+}
